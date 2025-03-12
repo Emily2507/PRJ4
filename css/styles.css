@@ -8,13 +8,13 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #FFD1DC;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FDFD96;
 }
 
 .resume-main {
@@ -48,4 +48,17 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.title {
+	color: rgb(248, 96, 223);
+	font-weight: 900;
+	font-size: xx-large;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: Arial;
+}
+
+.subtitle {
+	text-decoration: underline;
+	text-decoration-thickness: 1.5px;
 }
